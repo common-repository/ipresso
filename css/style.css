@@ -1,0 +1,186 @@
+.form-group {
+margin-bottom: 15px;
+
+}
+.form-control::-webkit-input-placeholder { color: #404040; }
+.col-xs-12 {
+width: 100%;
+}
+   
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+float: left;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+position: relative;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+color: #404040;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #404040;   
+    border-radius: 8px;
+    height: 2.5em;
+	font-size: 20px;
+    color: #404040;
+    background: #fff;
+    transition: all .3s ease-in-out;
+}
+.btn-login{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none repeat scroll 0% 0% #B70200;
+    border: 0px none;
+    border-radius: 2px;
+    color: #FFF;
+    font: 300 16px "Roboto",sans-serif;
+    cursor: pointer;
+}
+
+.btn-agreement{
+    display: block;
+    width:100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none repeat scroll 0% 0% #B70200;
+    border: 0px none;
+    border-radius: 2px;
+    color: #FFF;
+    font: 300 16px "Roboto",sans-serif;
+    cursor: pointer;
+    margin : 10px;
+}
+.btn-white{
+    display: block;
+    width:100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none repeat scroll 0% 0% #FFF;
+    border: 0.1px solid #333;
+    //border-color:#333;
+    border-radius: 2px;
+    color: #333;
+    font: 300 16px "Roboto",sans-serif;
+    cursor: pointer;
+    margin : 10px;
+}
+
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #404040;
+    color: #fff;
+    background: #404040;
+}
+
+.button-success {
+    margin-top: 15px;
+    border: solid 2px green;   
+    border-radius: 8px;
+    height: 2.5em;
+    width: 2.5em;
+	font-size: 15px;
+    color: green;
+    background: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.button-success:hover,
+.button-success:focus,
+.button-success:active,
+.button-success.active {
+    border: solid 2px green;
+    color: #fff;
+    background: green;
+}
+
+a, a:hover, a:focus, a:active, a.active {
+outline: 0;
+color: #18bc9c;
+}
+
+a {
+color: #18bc9c;
+text-decoration: none;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.rejestr-section {
+ padding: 20px 0;
+    text-align: center;
+    //background: #f2f2f2;
+    //background-image: url(plugins_url('ipresso/images/bg-7.jpg'));
+}
+
+.table-section {
+ padding: 20px 0;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 0;
+   
+  
+}
+
+//datapiker
+#dateRangeForm .form-control-feedback {
+    top: 0;
+    right: -15px;
+}
+
+
+.right {
+    float: right;
+}
+
+.tableFull-section {
+ padding: 20px 0;
+    text-align: left;
+    background: white;
+        margin-right: 20px;
+    margin-left: 0;
+}
+.dane-section {
+ padding: 150px 0;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #e2e2e2;
+}
+
+/* tabela znaczniki */
+
+table.table-hover thead .sorting_asc,
+table.table-hover thead .sorting_desc,
+table.table-hover thead .sorting {
+  cursor: pointer;
+  *cursor: hand;
+}
+table.table-hover thead .sorting {
+  background: url("../images/sort_both.png") no-repeat center right;
+}
+table.table-hover thead .sorting_asc {
+  background: url("../images/sort_asc.png") no-repeat center right;
+}
+table.table-hover thead .sorting_desc {
+  background: url("../images/sort_desc.png") no-repeat center right;
+}
+table.table-hover thead .sorting_asc_disabled {
+  background: url("../images/sort_asc_disabled.png") no-repeat center right;
+}
+table.table-hover thead .sorting_desc_disabled {
+  background: url("../images/sort_desc_disabled.png") no-repeat center right;
+}
